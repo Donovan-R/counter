@@ -1,0 +1,54 @@
+::after,
+::before,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: rgb(55, 55, 113);
+  background-image: url(https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2021/05/histoire-ordinateur-probleme-mathematiques.jpg);
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container h1 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+}
+
+#value {
+  font-size: 120px;
+}
+
+.btnContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.btnContainer button {
+  height: 40px;
+  width: 110px;
+  font-size: 1rem;
+  color: darkcyan;
+  background-color: black;
+  border-radius: 10%;
+}
+
+.btnContainer button:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
